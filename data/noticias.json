@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "titulo": "Los parques naturales del país estrenan rutas guiadas de observación astronómica",
+    "categoria": "turismo",
+    "resumen": "Seis operadores locales se unieron para ofrecer recorridos nocturnos con astrónomos aficionados. La meta es extender la estadía promedio del visitante de un día a tres.",
+    "autor": "John Doe",
+    "fecha": "2026-09-14",
+    "lectura": 6,
+    "imagen": "",
+    "pie": "Las rutas nocturnas recorren cerca de cuatro kilómetros. Fotografía: archivo de NotiCreo.",
+    "relacionadas": [8, 9, 10],
+    "contenido": [
+      { "tipo": "p", "texto": "El acuerdo entre seis operadores turísticos organiza por primera vez una oferta nocturna común: mismo horario de salida, mismo recorrido base y una tarifa acordada que incluye guía y transporte desde el casco urbano más cercano." },
+      { "tipo": "p", "texto": "Hasta ahora cada operador armaba su propio recorrido y la mayoría de visitantes llegaba y se iba el mismo día. Con las rutas guiadas, la apuesta es que el visitante se quede al menos dos noches: una para el recorrido diurno por el parque y otra para la observación del cielo." },
+      { "tipo": "h2", "texto": "Qué incluye el recorrido" },
+      { "tipo": "p", "texto": "Cada salida reúne máximo quince personas y dura tres horas. Un astrónomo aficionado acompaña al grupo con telescopios de campo y explica qué se puede ver según la época del año. En temporada seca, la visibilidad permite identificar a simple vista buena parte de la Vía Láctea." },
+      { "tipo": "cita", "texto": "Antes el visitante llegaba, tomaba fotos y se iba. Lo que cambia con esto es la noche: ahora hay una razón para quedarse.", "autor": "John Doe, operador turístico" },
+      { "tipo": "p", "texto": "Las autoridades locales acompañan la iniciativa con señalización en los senderos y un punto de información en la entrada del parque. Queda pendiente la regulación de la iluminación en los alojamientos cercanos, que hoy es el principal obstáculo para la observación." }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Las universidades públicas amplían los cupos para programas virtuales",
+    "categoria": "educacion",
+    "resumen": "La ampliación cubre once programas de pregrado y empieza a regir en el próximo calendario académico.",
+    "autor": "John Doe",
+    "fecha": "2026-09-13",
+    "lectura": 4,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Las universidades públicas del país anunciaron la ampliación de cupos para once programas de pregrado en modalidad virtual. La medida busca atender la demanda de estudiantes que trabajan o viven lejos de las sedes principales." },
+      { "tipo": "p", "texto": "Los programas incluidos pertenecen a las áreas de administración, ingeniería de sistemas, contaduría y licenciaturas. Las inscripciones se abrirán con el próximo calendario académico y mantendrán los mismos requisitos de admisión de la modalidad presencial." },
+      { "tipo": "p", "texto": "Las instituciones reconocen que el reto no está solo en abrir cupos, sino en sostener la permanencia: la deserción en programas virtuales sigue siendo más alta que en los presenciales, por lo que se reforzarán las tutorías y el acompañamiento en el primer semestre." }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Un nuevo centro de datos promete bajar los costos de conectividad",
+    "categoria": "tecnologia",
+    "resumen": "La obra se levantará en el corredor industrial y entraría en operación el próximo año.",
+    "autor": "John Doe",
+    "fecha": "2026-09-12",
+    "lectura": 4,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Un consorcio de empresas de telecomunicaciones confirmó la construcción de un nuevo centro de datos en el corredor industrial del centro del país. La infraestructura permitirá alojar servicios que hoy dependen de servidores ubicados en el exterior." },
+      { "tipo": "p", "texto": "Según los promotores, acercar el procesamiento de datos a los usuarios reduce la latencia y los costos de transporte de información, un ahorro que debería trasladarse a las tarifas de conectividad de empresas y hogares." },
+      { "tipo": "p", "texto": "La obra contempla un sistema de refrigeración de bajo consumo de agua y respaldo energético con paneles solares. Su entrada en operación está prevista para el próximo año." }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Los mercados campesinos ganan espacio en los centros comerciales",
+    "categoria": "comercio",
+    "resumen": "Tres cadenas de centros comerciales cedieron zonas comunes para ferias de productores los fines de semana.",
+    "autor": "John Doe",
+    "fecha": "2026-09-11",
+    "lectura": 3,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Tres cadenas de centros comerciales firmaron un acuerdo para ceder zonas comunes a ferias de productores campesinos durante los fines de semana. La iniciativa conecta directamente a los agricultores con compradores urbanos." },
+      { "tipo": "p", "texto": "Los productores participan sin pagar arriendo por el espacio y solo asumen el costo del transporte. A cambio, se comprometen a ofrecer productos frescos con precios de referencia publicados en cada puesto." },
+      { "tipo": "p", "texto": "Las primeras jornadas registraron alta asistencia, especialmente en la franja de la mañana. Los centros comerciales evaluarán los resultados al cierre del trimestre para decidir si amplían la frecuencia." }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Colegios rurales estrenan conectividad satelital en tres departamentos",
+    "categoria": "educacion",
+    "resumen": "La conexión llega a 1.200 estudiantes que hasta ahora dependían de material impreso para sus clases.",
+    "autor": "John Doe",
+    "fecha": "2026-09-10",
+    "lectura": 4,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Cuarenta sedes educativas rurales de tres departamentos comenzaron a operar con conectividad satelital. El servicio beneficia a cerca de 1.200 estudiantes que hasta ahora trabajaban exclusivamente con guías impresas." },
+      { "tipo": "p", "texto": "Cada sede recibió una antena, un punto de acceso inalámbrico y un lote de tabletas para uso en el aula. Los docentes participaron en una capacitación previa sobre el uso de plataformas educativas sin conexión permanente." },
+      { "tipo": "p", "texto": "El principal desafío es el mantenimiento: las sedes están alejadas de los centros urbanos y una falla técnica puede dejar sin servicio a la comunidad durante semanas. Por eso se formó a un docente por sede como responsable técnico." }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Talleres gratuitos de programación llegan a las bibliotecas públicas",
+    "categoria": "tecnologia",
+    "resumen": "Cuatro sedes abren inscripciones para cursos de introducción al desarrollo web y análisis de datos.",
+    "autor": "John Doe",
+    "fecha": "2026-09-09",
+    "lectura": 3,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "La red de bibliotecas públicas abrió inscripciones para talleres gratuitos de introducción a la programación. Los cursos se dictarán en cuatro sedes y están dirigidos a jóvenes y adultos sin experiencia previa." },
+      { "tipo": "p", "texto": "El programa incluye dos rutas: desarrollo web, con HTML, CSS y JavaScript, y análisis de datos con hojas de cálculo y herramientas de visualización. Cada ruta dura ocho semanas con sesiones presenciales dos veces por semana." },
+      { "tipo": "p", "texto": "Los participantes que completen el taller recibirán un certificado de asistencia y podrán continuar con un módulo avanzado. Los cupos son limitados y se asignan por orden de inscripción." }
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Pequeños comercios adoptan pagos digitales: qué cambia para el cliente",
+    "categoria": "comercio",
+    "resumen": "Siete de cada diez tiendas de barrio ya aceptan transferencias. Los costos por transacción siguen siendo el punto débil.",
+    "autor": "John Doe",
+    "fecha": "2026-09-08",
+    "lectura": 4,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Los pequeños comercios del país aceleraron la adopción de pagos digitales. Siete de cada diez tiendas de barrio ya aceptan transferencias inmediatas o pagos con código QR, una cifra que hace dos años era mucho menor." },
+      { "tipo": "p", "texto": "Para el cliente, el cambio más visible es la posibilidad de pagar sin efectivo en compras pequeñas. Para el comerciante, la ventaja es reducir el manejo de dinero en caja y llevar un registro más ordenado de sus ventas." },
+      { "tipo": "p", "texto": "El punto débil siguen siendo los costos por transacción en algunas plataformas, que afectan a negocios con márgenes estrechos. Los gremios piden tarifas diferenciadas para montos bajos." }
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Cinco pueblos que ya viven del turismo de naturaleza",
+    "categoria": "turismo",
+    "resumen": "Recorrido por los municipios que cambiaron la agricultura de subsistencia por el ecoturismo.",
+    "autor": "John Doe",
+    "fecha": "2026-09-07",
+    "lectura": 5,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "En distintas regiones del país, pequeños municipios encontraron en el turismo de naturaleza una alternativa a la agricultura de subsistencia. Senderos, avistamiento de aves y alojamientos rurales son hoy su principal fuente de ingresos." },
+      { "tipo": "p", "texto": "El cambio no fue inmediato. Las comunidades tuvieron que formarse como guías, adecuar sus viviendas para recibir visitantes y organizarse en asociaciones para repartir los beneficios de manera equitativa." },
+      { "tipo": "p", "texto": "El reto hacia adelante es crecer sin deteriorar los ecosistemas que atraen a los visitantes. Varias de estas comunidades ya establecieron límites de capacidad por temporada." }
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Guías locales se certifican en primeros auxilios",
+    "categoria": "educacion",
+    "resumen": "El programa de formación busca mejorar la seguridad de los visitantes en zonas apartadas.",
+    "autor": "John Doe",
+    "fecha": "2026-09-05",
+    "lectura": 3,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Un grupo de guías turísticos locales completó un curso certificado de primeros auxilios en áreas rurales. La formación incluyó atención de lesiones, manejo de deshidratación y protocolos de evacuación." },
+      { "tipo": "p", "texto": "La iniciativa surgió de las mismas asociaciones de guías, que identificaron la falta de preparación como un riesgo en recorridos alejados de centros de salud." },
+      { "tipo": "p", "texto": "Con la certificación, los guías podrán ofrecer recorridos de mayor duración y atender grupos más grandes, dos condiciones que les exigían los operadores turísticos." }
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Artesanos locales abren una tienda compartida",
+    "categoria": "comercio",
+    "resumen": "La tienda reúne el trabajo de más de veinte talleres y elimina intermediarios en la venta.",
+    "autor": "John Doe",
+    "fecha": "2026-09-02",
+    "lectura": 3,
+    "imagen": "",
+    "contenido": [
+      { "tipo": "p", "texto": "Más de veinte talleres artesanales se asociaron para abrir una tienda compartida. El local exhibe tejidos, cerámica y trabajos en madera, y cada taller recibe directamente el valor de sus ventas." },
+      { "tipo": "p", "texto": "Hasta ahora, la mayoría de estos artesanos vendía a intermediarios que se quedaban con buena parte del margen. La tienda compartida reduce esa dependencia y permite fijar precios justos." },
+      { "tipo": "p", "texto": "La asociación planea abrir una tienda en línea el próximo semestre para llegar a compradores de otras ciudades." }
+    ]
+  }
+]
