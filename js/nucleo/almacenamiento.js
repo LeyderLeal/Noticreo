@@ -13,6 +13,8 @@ const PREFIJO = 'noticreo:';
 /** Claves usadas por la aplicación. */
 export const CLAVES = Object.freeze({
   FAVORITOS: 'favoritos',   // arreglo de ids de noticias guardadas
+  CREADAS: 'creadas',       // noticias creadas desde la página Publicar
+  ELIMINADAS: 'eliminadas', // ids de noticias del JSON que el usuario eliminó
 });
 
 /**

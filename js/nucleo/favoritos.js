@@ -45,6 +45,18 @@ export function alternarFavorito(id) {
   return posicion === -1;
 }
 
+/**
+ * Quita una noticia de favoritos si estaba guardada.
+ * Se usa al eliminar una noticia del catálogo.
+ * @param {number} id
+ */
+export function quitarFavorito(id) {
+  const ids = obtenerFavoritos();
+  if (!ids.includes(id)) return;
+  guardar(CLAVES.FAVORITOS, ids.filter((idGuardado) => idGuardado !== id));
+  notificarCambio();
+}
+
 /** Vacía la lista completa. */
 export function vaciarFavoritos() {
   borrar(CLAVES.FAVORITOS);
