@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Publicar | NotiCreo</title>
-  <meta name="description" content="Formulario para redactar una noticia.">
+  <meta name="description" content="Publicación y administración de noticias.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 
   <!-- Tipografías del sistema de diseño -->
@@ -66,7 +66,7 @@
       <div class="wrap">
         <nav class="crumb" aria-label="Ruta de navegación"><a href="index.html">Inicio</a> / Publicar</nav>
         <h1>Publicar una noticia</h1>
-        <p>Completa los datos de la noticia. Cuando el formulario sea válido verás la vista previa de su tarjeta, tal como aparecerá en el listado.</p>
+        <p>Completa el formulario para publicar una noticia nueva. Más abajo puedes revisar todas las noticias del catálogo y eliminar las que ya no quieras mostrar.</p>
       </div>
     </div>
 
@@ -75,6 +75,14 @@
 
         <!-- novalidate: la validación la hace js/componentes/validacion.js -->
         <form class="form-card" id="form-publicar" novalidate>
+          <div class="alert" id="alerta-publicar" role="status" tabindex="-1" hidden>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E6B4F" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+            <div>
+              <h3>Noticia publicada</h3>
+              <p id="texto-alerta-publicar"></p>
+            </div>
+          </div>
+
           <h2>Datos de la noticia</h2>
           <p class="sub">Los campos marcados con <i>*</i> son obligatorios.</p>
 
@@ -125,17 +133,17 @@
           </div>
 
           <div class="form-foot">
-            <button type="submit" class="btn btn-primary">Generar vista previa</button>
+            <button type="submit" class="btn btn-primary">Publicar noticia</button>
             <button type="reset" class="btn btn-outline">Limpiar campos</button>
           </div>
         </form>
 
         <aside class="guia">
           <div class="panel">
-            <h2>Vista previa</h2>
+            <h2>Última noticia publicada</h2>
             <!-- la tarjeta de muestra no se puede clicar -->
-            <div class="vista-previa" id="vista-previa" inert>
-              <p>La tarjeta aparecerá aquí cuando el formulario pase todas las validaciones.</p>
+            <div class="vista-previa" id="ultima-publicada" inert>
+              <p>Aquí aparecerá la tarjeta de la última noticia que publiques, tal como se ve en el listado.</p>
             </div>
           </div>
           <div class="panel">
@@ -148,6 +156,33 @@
           </div>
         </aside>
 
+      </div>
+    </section>
+
+    <!-- Gestión de noticias: catálogo completo con opción de eliminar -->
+    <section class="admin" aria-labelledby="titulo-admin">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2 class="sec-title" id="titulo-admin">Noticias publicadas</h2>
+          <button type="button" class="btn btn-outline btn-sm" id="restablecer" hidden>Restablecer noticias de ejemplo</button>
+        </div>
+        <p class="admin-info" id="total-admin"></p>
+        <div class="tabla-contenedor" id="tabla-admin">
+          <table class="tabla-admin">
+            <thead>
+              <tr>
+                <th scope="col">Noticia</th>
+                <th scope="col">Sección</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Origen</th>
+                <th scope="col"><span class="visualmente-oculto">Acción</span></th>
+              </tr>
+            </thead>
+            <tbody id="filas-admin">
+              <tr><td colspan="5" class="celda-vacia">Cargando noticias…</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   </main>

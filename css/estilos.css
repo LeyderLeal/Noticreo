@@ -567,3 +567,25 @@ select.control {
   .foot-grid { grid-template-columns: 1fr; }
   .foot-bottom { flex-direction: column; gap: var(--s2); }
 }
+
+
+/* 13. Publicar: gestión de noticias */
+.admin { padding-bottom: var(--s8); }
+.admin-info { font-size: var(--t-sm); color: var(--muted); margin-bottom: var(--s4); }
+/* position: relative mantiene dentro del contenedor el texto oculto del encabezado,
+   que de otro modo ensancha la página en celulares */
+.tabla-contenedor { position: relative; overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-card); }
+.tabla-admin { width: 100%; min-width: 720px; border-collapse: collapse; font-size: var(--t-sm); }
+.tabla-admin th {
+  text-align: left; padding: 12px 16px; background: var(--mist);
+  font-size: var(--t-xs); font-weight: 600; color: var(--ink-2); border-bottom: 1px solid var(--line);
+}
+.tabla-admin td { padding: 14px 16px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.tabla-admin tr:last-child td { border-bottom: 0; }
+.tabla-admin time { white-space: nowrap; color: var(--ink-2); }
+.celda-titulo a { font-family: var(--serif); font-weight: 600; font-size: var(--t-base); line-height: 1.35; }
+.celda-titulo a:hover { color: var(--brand); }
+.celda-accion { text-align: right; }
+.celda-vacia { text-align: center; color: var(--muted); padding: var(--s6) var(--s4); }
+.origen { font-size: var(--t-xs); color: var(--muted); white-space: nowrap; }
+.origen-propia { color: var(--brand); font-weight: 500; }
