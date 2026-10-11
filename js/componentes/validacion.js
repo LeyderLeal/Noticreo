@@ -1,6 +1,8 @@
 /**
  * validacion.js
  * Validación de formularios reutilizable (Contacto y Publicar).
+ */
+
 /** Correo con usuario, @, dominio y extensión de al menos 2 letras. */
 const PATRON_CORREO = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 

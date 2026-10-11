@@ -2,7 +2,7 @@
 
 Plataforma web de noticias desarrollada para el módulo **Desarrollo de Front-end** del Politécnico Grancolombiano.
 
-construido con HTML, CSS y JavaScript.
+Aplicación construida con HTML, CSS y JavaScript, sin frameworks.
 
 ## Funcionalidades
 
@@ -12,7 +12,7 @@ construido con HTML, CSS y JavaScript.
 - Vista de detalle con información completa, imagen y botones de interacción.
 - Favoritos guardados en `localStorage`, con lista personalizada y contador en la cabecera.
 - Formulario de contacto con validaciones y mensaje de confirmación.
-- Formulario de publicación con validaciones y vista previa de la tarjeta.
+- Gestión básica de noticias: crear noticias con un formulario validado y eliminar las existentes desde una tabla de administración.
 
 ## Cómo ejecutarlo
 
@@ -39,7 +39,7 @@ Noticreo/
 ├── noticias.html           Listado de noticias
 ├── detalle.html            Detalle de una noticia (detalle.html?id=N)
 ├── favoritos.html          Lista personalizada
-├── publicar.html           Formulario de publicación
+├── publicar.html           Crear y eliminar noticias
 ├── contacto.html           Formulario de contacto
 ├── css/
 │   └── estilos.css         Sistema de diseño y estilos de todas las páginas
@@ -50,7 +50,7 @@ Noticreo/
 └── js/
     ├── nucleo/             Lógica sin interfaz
     │   ├── almacenamiento.js   Acceso a localStorage
-    │   ├── datos.js            Carga del JSON
+    │   ├── datos.js            Catálogo: JSON más los cambios del usuario
     │   ├── favoritos.js        Lista de favoritos
     │   └── utilidades.js       Fechas, escape de HTML, avisos
     ├── componentes/        Piezas reutilizables de interfaz
@@ -71,6 +71,8 @@ Noticreo/
 | Clave | Contenido |
 |---|---|
 | `noticreo:favoritos` | Arreglo con los id de las noticias guardadas |
+| `noticreo:creadas` | Noticias creadas desde la página Publicar |
+| `noticreo:eliminadas` | Arreglo con los id de las noticias del JSON que se eliminaron |
 
 ## Tecnologías
 
